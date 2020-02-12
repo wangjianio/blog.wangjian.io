@@ -32,13 +32,13 @@ export default function Bio(params) {
         marginBottom: rhythm(2.5),
       }}
     >
-      <p>
+      {/* <p>
         Written by <strong>{author}</strong> who lives and works in China building useful things.
         {` `}
         <a href={`https://twitter.com/${social.twitter}`}>
           You can follow him on Twitter
         </a>
-      </p>
+      </p> */}
     </div>
   )
 }

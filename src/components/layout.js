@@ -13,7 +13,7 @@ export default function Layout(props) {
     header = (
       <h1
         style={{
-          ...scale(1.5),
+          // ...scale(1.5),
           marginBottom: rhythm(1.5),
           marginTop: 0,
         }}
@@ -64,6 +64,8 @@ export default function Layout(props) {
       <main>{children}</main>
       <footer>
         © {new Date().getFullYear()}, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
+        {' '}
+        <a href="http://www.beian.miit.gov.cn/" target="_blank">蒙ICP备17002783号</a>
       </footer>
     </div>
   )

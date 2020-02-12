@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Blog`,
+    title: `前端开发技术分享`,
     author: `Wang Jian`,
     description: `A starter blog demonstrating what Gatsby can do.`,
     siteUrl: `https://blog.wangjian.io/`,
