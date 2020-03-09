@@ -17,10 +17,12 @@ export default function Bio(params) {
 
   const { author, social } = data.site.siteMetadata
   return (
-    <p>
-      Written by <strong>{author}</strong> who lives and works in China building useful things.
+    <p style={{
+      color: '#8fa6e0',
+    }}>
+      Written by <strong>{author}</strong> who lives and works in Hangzhou building useful things. You can follow him on
       {` `}
-      <a href={`https://twitter.com/${social.twitter}`}>You can follow him on Twitter</a>
+      <a href={`https://twitter.com/${social.twitter}`} target="_blank" rel="noopener noreferrer">Twitter</a>.
     </p>
   )
 }
