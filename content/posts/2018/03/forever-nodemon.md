@@ -2,6 +2,7 @@
 title: forever + nodemon
 date: 2018-03-19
 description: forever 和 nodemon 配合使用
+tag: node
 ---
 
 forever 用来后台持续运行一项服务，nodemon 监控文件变化，重启服务。

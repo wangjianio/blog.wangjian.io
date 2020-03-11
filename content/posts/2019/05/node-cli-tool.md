@@ -1,6 +1,7 @@
 ---
 title: 如何开发一个 node cli 工具
 date: 2019-05-28
+tag: node
 ---
 
 1. 首先要有一个文件夹。以 `~/tools/` 为例。
