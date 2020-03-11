@@ -52,7 +52,8 @@ export default function Layout(props) {
   return (
     <div>
       <div style={{
-        position: 'sticky',
+        position: 'fixed',
+        width: '100%',
         top: 0,
         lineHeight: '56px',
         padding: '0 16px',
@@ -67,7 +68,7 @@ export default function Layout(props) {
         </div>
 
         <div>
-          <Link to="/" style={{ color: 'inherit', textDecoration: 'none', marginRight: 16 }}>News</Link>
+          <Link to="/" style={{ color: 'inherit', textDecoration: 'none', marginRight: 16 }}>Activities</Link>
           <Link to="/" style={{ color: 'inherit', textDecoration: 'none', marginRight: 16 }}>Featured</Link>
           <Link to="/" style={{ color: 'inherit', textDecoration: 'none', marginRight: 16 }}>Archive</Link>
           <Link to="/" style={{ color: 'inherit', textDecoration: 'none', marginRight: 16 }}>Notes</Link>
