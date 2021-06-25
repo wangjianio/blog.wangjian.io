@@ -65,7 +65,7 @@ export default function Layout(props) {
       <footer>
         © {new Date().getFullYear()}, Built with <a href="https://www.gatsbyjs.org">Gatsby</a>
         {' '}
-        <a href="http://www.beian.miit.gov.cn/" target="_blank">蒙ICP备17002783号</a>
+        <a href="https://beian.miit.gov.cn/" target="_blank">蒙ICP备17002783号</a>
       </footer>
     </div>
   )
